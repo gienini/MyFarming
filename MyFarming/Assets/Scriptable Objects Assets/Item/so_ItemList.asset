@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be79102c2371ec6438421b36c21909bf, type: 3}
+  m_Name: so_ItemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - codigo: 10000
+    tipo: 1
+    descripcion: Bellota de Canyon Oak
+    sprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
+    descripcionLarga: "Desde una peque\xF1a bellota puede crecer un gran arbol!"
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10001
+    tipo: 0
+    descripcion: Calabaza
+    sprite: {fileID: 21300000, guid: f0d720006ae6c9e468cc99a9f1713ba1, type: 3}
+    descripcionLarga: Una enorme y naranja calabaza
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 1
+    esSostenible: 1
+  - codigo: 10002
+    tipo: 0
+    descripcion: "Ma\xEDz"
+    sprite: {fileID: 21300000, guid: 081b5033ea188cb48b5d44b99ab920bc, type: 3}
+    descripcionLarga: "Deliciosa mazorca de ma\xEDz"
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 1
+    esSostenible: 1
+  - codigo: 10003
+    tipo: 2
+    descripcion: Regadora Basica
+    sprite: {fileID: 21300136, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: Una vieja regadora agujereada. Aun tiene algun uso
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10004
+    tipo: 3
+    descripcion: Azada Basica
+    sprite: {fileID: 21300052, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: La azada de moda en el siglo XVIII
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10005
+    tipo: 4
+    descripcion: Hacha Basica
+    sprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: Una hacha con el mango agrietado...
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10006
+    tipo: 1
+    descripcion: "Semilla de Chiriv\xEDa"
+    sprite: {fileID: 21300000, guid: 7da78110e28e0f74aaa3ef4a41f4c0ed, type: 3}
+    descripcionLarga: "Si se planta en el suelo sale una chiriv\xEDa"
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10007
+    tipo: 0
+    descripcion: "Chiriv\xEDa"
+    sprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    descripcionLarga: Chirivitastico!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 1
+    esSostenible: 1
+  - codigo: 10008
+    tipo: 0
+    descripcion: "Le\xF1a"
+    sprite: {fileID: 21300000, guid: e26dc0d638731ec47abe9c4b3cae62ac, type: 3}
+    descripcionLarga: Un elemento perfecto para darle al mono
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10009
+    tipo: 1
+    descripcion: "Pi\xF1a de Pino"
+    sprite: {fileID: 21300000, guid: 5eb84bf51d351da428f95a1296f6a397, type: 3}
+    descripcionLarga: NO conservar en almibar, mejor enterrar
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10010
+    tipo: 1
+    descripcion: "Toc\xF3n de Canyon Oak"
+    sprite: {fileID: 7154603021615155856, guid: d241c496741a12d4290e12ba81dd6724,
+      type: 3}
+    descripcionLarga: "Un vestigio de lo que anta\xF1o fu\xE9"
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10011
+    tipo: 0
+    descripcion: "Toc\xF3n de Spruce Tree"
+    sprite: {fileID: -341119608263849502, guid: 5d22327a2a3d2a049a8a59a708d527fe,
+      type: 3}
+    descripcionLarga: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10012
+    tipo: 7
+    descripcion: Cesta Basica
+    sprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: "Ro\xF1osa pero preciosa"
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10013
+    tipo: 5
+    descripcion: Mai Basico
+    sprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: "Elemento necesario en la destrucci\xF3n de cosas resistentes"
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10014
+    tipo: 1
+    descripcion: Semilla de piedra 1
+    sprite: {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    descripcionLarga: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10015
+    tipo: 0
+    descripcion: Piedra
+    sprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    descripcionLarga: Pesada y muy usada
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10016
+    tipo: 0
+    descripcion: Semilla de piedra 2
+    sprite: {fileID: 21300000, guid: ffd3a07e9702a614284d1e5a4be9f532, type: 3}
+    descripcionLarga: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10017
+    tipo: 6
+    descripcion: "Guada\xF1a Basica"
+    sprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    descripcionLarga: Siega cultivos y vidas con la misma facilidad
+    itemUseGridRadius: 0
+    itemUseRadius: 1.5
+    esInicial: 1
+    esRecogible: 1
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10018
+    tipo: 8
+    descripcion: Pasto 1
+    sprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
+    descripcionLarga: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10019
+    tipo: 8
+    descripcion: Pasto 2
+    sprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
+    descripcionLarga: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10020
+    tipo: 0
+    descripcion: Hierba
+    sprite: {fileID: 21300000, guid: 25925800440b0e84f9533a314ddca6b5, type: 3}
+    descripcionLarga: :) weed
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 1
+    esSoltable: 1
+    esComible: 0
+    esSostenible: 1
+  - codigo: 10021
+    tipo: 8
+    descripcion: Cactus
+    sprite: {fileID: 21300000, guid: 37e09848a493a0a4b89a743f73f75963, type: 3}
+    descripcionLarga: Picoso
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10022
+    tipo: 9
+    descripcion: Silla
+    sprite: {fileID: 21300000, guid: 2a61f48c8f2dfed4da6f2f8e2485ee15, type: 3}
+    descripcionLarga: Comoda y solida
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0
+  - codigo: 10023
+    tipo: 9
+    descripcion: Mesa
+    sprite: {fileID: 21300000, guid: 60f7a57556be87841a8cabc94054df28, type: 3}
+    descripcionLarga: mesosa
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    esInicial: 0
+    esRecogible: 0
+    esSoltable: 0
+    esComible: 0
+    esSostenible: 0

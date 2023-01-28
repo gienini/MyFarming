@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6485f75045796449c6b35a0507e938, type: 3}
+  m_Name: so_CropDetailsList
+  m_EditorClassIdentifier: 
+  cropDetails:
+  - semillaCodigo: 10006
+    diasCrecimiento: 0000000001000000020000000300000005000000
+    crecimientoPrefab:
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    crecimientoSprite:
+    - {fileID: 6634833228405365077, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: -8204859348171178890, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: -4573777506729046043, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: 7041525069147447728, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: 7193783865090184285, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    season: 0000000001000000
+    cosechaSprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    cosechaTransformCodigo: 0
+    hideCultivoPreCosecha: 1
+    disableCultivoPreCosecha: 0
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 0
+    spawnCultivoEnPlayer: 1
+    cosechaEfecto: 5
+    cosechaHerramientaCodigo: 1c270000
+    cosechaHerramientaAcciones: 01000000
+    cultivoProducidoCodigo: 17270000
+    cultivoProducidoCantidadMinima: 01000000
+    cultivoProducidoCantidadMaxima: 01000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10000
+    diasCrecimiento: 00000000050000000a0000000f00000014000000
+    crecimientoPrefab:
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 64578065864796075, guid: 706daf4eb62bc094b8b65b83e2308b27, type: 3}
+    crecimientoSprite:
+    - {fileID: 5940278866164146339, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: -1611693019923910846, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 1388107105281676754, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 6019493940114240039, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    season: 0000000001000000
+    cosechaSprite: {fileID: 0}
+    cosechaTransformCodigo: 10010
+    hideCultivoPreCosecha: 0
+    disableCultivoPreCosecha: 0
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 0
+    cosechaEfecto: 0
+    cosechaHerramientaCodigo: 15270000
+    cosechaHerramientaAcciones: 07000000
+    cultivoProducidoCodigo: 1827000010270000
+    cultivoProducidoCantidadMinima: 0200000001000000
+    cultivoProducidoCantidadMaxima: 0500000002000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10010
+    diasCrecimiento: 00000000
+    crecimientoPrefab:
+    - {fileID: 9098103228092330082, guid: b64c06f638d6f0041bd1b6b0940c5035, type: 3}
+    crecimientoSprite:
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    season: 00000000010000000200000003000000
+    cosechaSprite: {fileID: 0}
+    cosechaTransformCodigo: 0
+    hideCultivoPreCosecha: 0
+    disableCultivoPreCosecha: 0
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 0
+    cosechaEfecto: 2
+    cosechaHerramientaCodigo: 15270000
+    cosechaHerramientaAcciones: 04000000
+    cultivoProducidoCodigo: 18270000
+    cultivoProducidoCantidadMinima: 02000000
+    cultivoProducidoCantidadMaxima: 03000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10009
+    diasCrecimiento: 00000000050000000a0000000f00000014000000
+    crecimientoPrefab:
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 6522693537956786714, guid: ba8cb4121c018634c80ff8c8d099b33c, type: 3}
+    - {fileID: 3696039881876519831, guid: 4d4a2855c9a8aa04b82e823ed9f3d59b, type: 3}
+    crecimientoSprite:
+    - {fileID: 5616798495908862610, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    - {fileID: -6947715560310228016, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    - {fileID: 4303850705525679241, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    - {fileID: 9217379939570758284, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    season: 00000000010000000200000003000000
+    cosechaSprite: {fileID: 0}
+    cosechaTransformCodigo: 10011
+    hideCultivoPreCosecha: 0
+    disableCultivoPreCosecha: 0
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 0
+    cosechaEfecto: 1
+    cosechaHerramientaCodigo: 15270000
+    cosechaHerramientaAcciones: 07000000
+    cultivoProducidoCodigo: 1827000019270000
+    cultivoProducidoCantidadMinima: 0300000001000000
+    cultivoProducidoCantidadMaxima: 0600000002000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10011
+    diasCrecimiento: 00000000
+    crecimientoPrefab:
+    - {fileID: 9098103228092330082, guid: ec20c8f0f4572c54e8f0590da532cbe5, type: 3}
+    crecimientoSprite:
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    season: 00000000010000000200000003000000
+    cosechaSprite: {fileID: 0}
+    cosechaTransformCodigo: 0
+    hideCultivoPreCosecha: 0
+    disableCultivoPreCosecha: 0
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 0
+    cosechaEfecto: 2
+    cosechaHerramientaCodigo: 15270000
+    cosechaHerramientaAcciones: 04000000
+    cultivoProducidoCodigo: 18270000
+    cultivoProducidoCantidadMinima: 02000000
+    cultivoProducidoCantidadMaxima: 03000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10014
+    diasCrecimiento: 00000000
+    crecimientoPrefab:
+    - {fileID: 2771182752387938122, guid: e2ff5d260a367cd4d918ee191e7d07ff, type: 3}
+    crecimientoSprite:
+    - {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    season: 00000000010000000200000003000000
+    cosechaSprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    cosechaTransformCodigo: 0
+    hideCultivoPreCosecha: 1
+    disableCultivoPreCosecha: 1
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 1
+    cosechaEfecto: 3
+    cosechaHerramientaCodigo: 1d270000
+    cosechaHerramientaAcciones: 01000000
+    cultivoProducidoCodigo: 1f270000
+    cultivoProducidoCantidadMinima: 01000000
+    cultivoProducidoCantidadMaxima: 01000000
+    diasRecrecimiento: 0
+  - semillaCodigo: 10016
+    diasCrecimiento: 00000000
+    crecimientoPrefab:
+    - {fileID: 2771182752387938122, guid: c8bf2fd534f2450469b9dfba2a4defb9, type: 3}
+    crecimientoSprite:
+    - {fileID: 21300000, guid: ffd3a07e9702a614284d1e5a4be9f532, type: 3}
+    season: 00000000010000000200000003000000
+    cosechaSprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    cosechaTransformCodigo: 0
+    hideCultivoPreCosecha: 1
+    disableCultivoPreCosecha: 1
+    esCosechaAnimacion: 1
+    esCosechaEfecto: 1
+    spawnCultivoEnPlayer: 1
+    cosechaEfecto: 3
+    cosechaHerramientaCodigo: 1d270000
+    cosechaHerramientaAcciones: 02000000
+    cultivoProducidoCodigo: 1f270000
+    cultivoProducidoCantidadMinima: 01000000
+    cultivoProducidoCantidadMaxima: 01000000
+    diasRecrecimiento: 0

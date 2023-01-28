@@ -1,0 +1,2 @@
+C:\Farming+RPG+Course\Farming RPG Course\MyFarming\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Farming+RPG+Course\Farming RPG Course\MyFarming\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
